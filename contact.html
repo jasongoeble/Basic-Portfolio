@@ -2,7 +2,8 @@
 <html lang="en-us">
 
     <meta charset="UTF-8">
-    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <head>
@@ -15,44 +16,44 @@
 
     <body>
       
-        <div>
-        
         <header>
                 <h1>
                     Jason Goeble
                 </h1>
-            </header>
+        </header>
+        
+        <nav>
+            <a href="./index.html#" alt="About Me">About</a>
+            |
+            <a href="./portfolio.html" target="blank" alt="Portfolio Page">Portfolio</a>
+            |
+            <a href="#" target="blank" alt="Conntact Page">Contact</a>
             
-            <nav>
-                <a href="./index.html#" alt="About Me">About</a>
-                |
-                <a href="./portfolio.html" target="blank" alt="Portfolio Page">Portfolio</a>
-                |
-                <a href="#" target="blank" alt="Conntact Page">Contact</a>
-            </nav>
+        </nav>
+
+        <br><br>
+
+        <hr>
+
+        <section>
     
-            <br><br>
-    
+            <h2>
+                Contact
+            </h2>
+        
+
             <hr>
 
-            <section>
-    
-                <h2>
-                    Contact
-                </h2>
-            
+            <form id=contactform>
+                Name:<br>
+                <input type="text" name="fullname"><br>
+                Email:<br>
+                <input type="text" name="email"><br>
+                Message:<br>
+                <textarea name="comment" form="contactform"></textarea><br>
+                <input type="submit" id="sub_buttonn" value="Submit">
+            </form>
 
-                <hr>
-
-                <form id=contactform>
-                    Name:<br>
-                    <input type="text" name="fullname"><br>
-                    Email:<br>
-                    <input type="text" name="email"><br>
-                    Message:<br>
-                    <textarea name="comment" form="contactform"></textarea><br>
-                    <input type="submit" id="sub_buttonn" value="Submit">
-                </form>
         </section>
 
         <footer>
