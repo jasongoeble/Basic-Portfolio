@@ -30,6 +30,14 @@ h2{
     color: #4aaaa5;
     background-color: white;
 }
+
+ul{
+    list-style-type: circle;
+}
+
+li{
+
+}
 nav{
     float: right;
     color: #777777;
@@ -62,17 +70,13 @@ section{
 
 footer{
     background-color: #666666;
-    border-top-style: solid;
-    border-top: #4aaaa5;
+    border-top: 10px solid #4aaaa5;
     text-align: center;
     height: 25px;
-}
-
-#bot_div{
-    height: 5px;
-    padding: 2px;
-    color: #4aaaa5;
-    background: #4aaaa5;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
 
 textarea{
@@ -91,3 +95,46 @@ textarea{
     font-size: 15px;
     margin: 4px 2px;
 }
+
+/*#Q1, #Q2, #Q3, #Q4{
+    width: 50%
+}*/
+
+#Q1{
+    
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+
+#Q1sub1{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: -60px;
+    width: 200px;
+    text-align: center;
+}
+
+#Q2{
+    clear: left;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#Q3{
+    clear: left;
+    float: left;
+}
+
+#Q4{
+    float: right;
+}
+
+/*aside{
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    margin-top: -60px;
+}*/
