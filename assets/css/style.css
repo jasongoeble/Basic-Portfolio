@@ -33,11 +33,28 @@ h2{
 
 ul{
     list-style-type: circle;
-}
-
-li{
 
 }
+
+/* 
+ * Some quick edits from Dylan
+ * you can adjust the styles as needed
+ * @date: 4/25/2018
+ * @time: 2:30 PM
+ */ 
+
+ ul {
+    margin-top: 5px;
+    padding-left: 40px;
+    list-style: circle;
+}
+li {
+    padding: 4px;
+}
+
+/* End Updates */
+
+
 nav{
     float: right;
     color: #777777;
