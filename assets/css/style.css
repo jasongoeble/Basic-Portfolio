@@ -6,7 +6,7 @@ body {
     border-bottom-color: #4aaaa5;
 }
 
-header, h2{
+header, h1, h2{
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
@@ -14,26 +14,23 @@ header{
     max-width: 960px;
     background-color: #4aaaa5;
     color: white;
-    left: 50px;
+    /*left: 50px;*/
     height: 0px;
 }
 
 h1{
-    width: 225px;
+    font-size: 30px;
+    width: 180px;
     background-color: #4aaaa5;
     color: white;
     position: absolute;
-    top: -29px; 
+    /*top: -29px; */
 }
 
 h2{
+    font-size: 26px;
     color: #4aaaa5;
     background-color: white;
-}
-
-ul{
-    list-style-type: circle;
-
 }
 
 /* 
