@@ -1,3 +1,27 @@
+/**
+ * Updated By: Dylan Burkey 
+ * Add html styles
+ * @date:
+ * @time:;
+ */
+
+/* add border-box */
+
+ * {
+    box-sizing: border-box;
+ }
+
+ *:before,
+ *:after {
+    box-sizing: inherit;
+ }
+
+ html {
+    font-size: 100%;
+    height: 100%;
+
+ }
+
 body {
     background-color: white;
     background-image: url("../images/subtle_white_mini_waves.png");
@@ -9,17 +33,29 @@ header, h1, h2{
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
+/* Add Header Height */
 header{
-    padding-left: 170px;
     background-color: white;
     color: white;
+    height: 50px;
 }
 
+
+/* 
+    Updated By: Dylan Burkey
+    Set the line-height correctly for now to match align header 
+    Set Width to 30%
+    set text-align: center;
+
+*/
 h1{
     font-size: 30px;
-    width: 180px;
+    width: 30%;
     background-color: #4aaaa5;
     color: white;
+    display: inline-block;
+    line-height: 1.8;
+    text-align: center;
 }
 
 h2{
@@ -28,12 +64,23 @@ h2{
     background-color: white;
 }
 
+/*
+ Updated bu: Dylan Burkey
+ Add 70% Width to Nav 
+ text-align: right;
+ Add padding-top for alignment
+*/
+
+
 nav{
     font-size: 18px;
     float: right;
     padding-right: 10px;
     /*padding-top: 10px;*/
     color: #777777;
+    width: 70%;
+    text-align: right;
+    padding-top: 10px;
 }
 
  ul {
@@ -74,7 +121,7 @@ footer{
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
     text-align: center;
-    height: 25px;
+    height: 40px;
     position: fixed;
     width: 100%;
     left: 0;
@@ -155,3 +202,48 @@ textarea{
     width: 200px;
     text-align: center;
 }
+
+/* 
+Updated By: Dylan Burkey
+Add aside class - Add margin-bottom for now 
+*/
+
+.my-music {
+    margin-bottom: 2.5em;
+}
+
+/* 
+    Updated by Dylan Burkey
+    Add  header-wrap to center your content 
+    
+ */
+
+.header-wrap {
+    max-width: 960px;
+    margin: auto;
+
+}
+
+/* 
+    Updated by: Dylan Burkey
+    Copyright Styles
+ */
+
+.copyright {
+    color: #fff;
+}
+
+/* Add Clearfix Class */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+ 
+.clearfix:after {
+  clear: both; }
+ 
+.clearfix {
+  *zoom: 1; }
