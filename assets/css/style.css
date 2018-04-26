@@ -33,11 +33,16 @@ header, h1, h2{
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-/* Add Header Height */
+/* 
+Updated by: Dylan Burkey
+Add border-bottom to create visual seperation
+Add Header Height 
+*/
 header{
     background-color: white;
     color: white;
-    height: 50px;
+    height: 53px;
+    border-bottom: 1px solid #666;
 }
 
 
