@@ -5,7 +5,7 @@
  * @time:;
  */
 
-/* add border-box */
+* add border-box 
 
  * {
     box-sizing: border-box;
@@ -15,6 +15,7 @@
  *:after {
     box-sizing: inherit;
  }
+ 
 
  html {
     font-size: 100%;
@@ -33,11 +34,6 @@ header, h1, h2{
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-/* 
-Updated by: Dylan Burkey
-Add border-bottom to create visual seperation
-Add Header Height 
-*/
 header{
     background-color: white;
     color: white;
@@ -45,14 +41,14 @@ header{
     border-bottom: 1px solid #666;
 }
 
+/* this aligns header content annd eliminates the background image from the header portion of the page*/
+ .header-wrap {
+    max-width: 960px;
+    margin: auto;
 
-/* 
-    Updated By: Dylan Burkey
-    Set the line-height correctly for now to match align header 
-    Set Width to 30%
-    set text-align: center;
+}
 
-*/
+/* display: inline-block permits objects to align correctly next to eachother especially when floats are used*/
 h1{
     font-size: 30px;
     width: 30%;
@@ -69,19 +65,10 @@ h2{
     background-color: white;
 }
 
-/*
- Updated bu: Dylan Burkey
- Add 70% Width to Nav 
- text-align: right;
- Add padding-top for alignment
-*/
-
-
 nav{
     font-size: 18px;
     float: right;
     padding-right: 10px;
-    /*padding-top: 10px;*/
     color: #777777;
     width: 70%;
     text-align: right;
@@ -106,6 +93,8 @@ hr{
     float: none;
 }
 
+/*still not sure why the bottom border is not being displayed on index.html while it is display on
+the portfolio.html and contact.html pages*/
 section{
     background-color:#ffffff;
     max-width: 960px;
@@ -131,6 +120,7 @@ footer{
     width: 100%;
     left: 0;
     bottom: 0;
+    color: #fff;;
 }
 
 textarea{
@@ -208,47 +198,33 @@ textarea{
     text-align: center;
 }
 
-/* 
-Updated By: Dylan Burkey
-Add aside class - Add margin-bottom for now 
-*/
+/* this bottom margin is required to get all of my conntent on index.html displayed, otherwise it is cut off.
+not sure why the cut off is happening */
 
 .my-music {
-    margin-bottom: 2.5em;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 205px;
 }
 
-/* 
-    Updated by Dylan Burkey
-    Add  header-wrap to center your content 
-    
- */
-
-.header-wrap {
-    max-width: 960px;
-    margin: auto;
-
-}
-
-/* 
-    Updated by: Dylan Burkey
-    Copyright Styles
- */
-
-.copyright {
-    color: #fff;
-}
-
-/* Add Clearfix Class */
+/* Courtesy of Dylan, not exactly sure I understand this
+Add Clearfix Class */
 
 .clearfix:before,
 .clearfix:after {
-  content: " ";
+    content: " ";
   /* 1 */
-  display: table;
-  /* 2 */ }
+    display: table;
+  /* 2 */ 
+}
  
 .clearfix:after {
-  clear: both; }
+    clear: both; 
+}
  
+/* Courtesy of Dylan, not exactly sure I understand this */
+
 .clearfix {
-  *zoom: 1; }
+  /**zoom: 1; */
+    transform: scale(1);
+}
