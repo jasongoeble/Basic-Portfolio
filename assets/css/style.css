@@ -214,21 +214,17 @@ not sure why the cut off is happening */
 /* Courtesy of Dylan, not exactly sure I understand this
 Add Clearfix Class */
 
-.clearfix:before,
+/* 
+Micro Clearfix -  if you have floats in your container 
+you need make sure they are cleared. this will clear your
+container after (check chrome inspector to see how where it displays)
+*/
 .clearfix:after {
     content: " ";
-  /* 1 */
     display: table;
-  /* 2 */ 
+    clear: both;
+  
 }
  
-.clearfix:after {
-    clear: both; 
-}
- 
-/* Courtesy of Dylan, not exactly sure I understand this */
 
-.clearfix {
-  /**zoom: 1; */
-    transform: scale(1);
-}
+ 
