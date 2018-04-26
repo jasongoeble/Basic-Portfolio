@@ -37,7 +37,7 @@ header, h1, h2{
 header{
     background-color: white;
     color: white;
-    height: 53px;
+    height: 55px;
     border-bottom: 1px solid #666;
 }
 
@@ -55,7 +55,8 @@ h1{
     background-color: #4aaaa5;
     color: white;
     display: inline-block;
-    line-height: 1.8;
+    /* increase line-height */
+    line-height: 1.9;
     text-align: center;
 }
 
@@ -68,9 +69,11 @@ h2{
 nav{
     font-size: 18px;
     float: right;
+    /*remove padding 
     padding-right: 10px;
+    */
     color: #777777;
-    width: 70%;
+    width: 50%;
     text-align: right;
     padding-top: 10px;
 }
@@ -87,6 +90,7 @@ li {
 a:visited, a:link, a:active{
     text-decoration: none;
     color: #7777;
+    padding: 10px;
 }
 
 hr{
