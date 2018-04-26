@@ -88,7 +88,9 @@ hr{
 }
 
 /*still not sure why the bottom border is not being displayed on index.html while it is display on
-the portfolio.html and contact.html pages*/
+the portfolio.html and contact.html pages.  It appears to be a content length issue, but I am unable
+to force a space betweenn the ridge style box and the footer if there is content to fill the entire
+visible winndow*/
 section{
     background-color:#ffffff;
     max-width: 960px;
